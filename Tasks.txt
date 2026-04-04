@@ -1,0 +1,7 @@
+Tasks:
+
+1. Resize image									- Done
+2. Change background colour for whole page		- Done
+3. Change font									- Done
+4. Change background colour for Heading			- Done
+5. Apply border to table						- Done
