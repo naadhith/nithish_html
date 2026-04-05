@@ -1,0 +1,8 @@
+We save our code in github
+It helps to recover our code on accidental deletion
+We can share code with anyone using github url
+We can see changes made in order
+
+Render is used to host our website
+It automatically shows new changes saved in github
+Our html should be named as index.html

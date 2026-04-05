@@ -7,12 +7,12 @@ table
 th
 tr
 td
+thead
+tbody
 img
 video
-h1 h2 h3 h4 h5 h6                   
- thead
-tbody
 source
+h1 h2 h3 h4 h5 h6
 br
 b
 i
