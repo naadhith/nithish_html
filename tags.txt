@@ -17,3 +17,8 @@ br
 b
 i
 title
+anchor
+hr
+list (ol, ul, li)
+paragraph
+blockquote

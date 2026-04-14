@@ -21,6 +21,8 @@
 			background-color: yellowgreen;
 		}
 	</style>
+
+
 </head>
 
 <body style="background-color: aquamarine;font-family: Verdana, Geneva, Tahoma, sans-serif">
@@ -36,6 +38,77 @@
 			</div>
 		</i>
 	</b>
+
+	<!-- Lists -->
+	<div style="background-color: peru;">
+		<h3>Lists</h3>
+		<ol>
+			<li>Nithish</li>
+			<li>Niranjan</li>
+			<li>Minnu</li>
+		</ol>
+		<br>
+		<ul>
+			<li>Nithish</li>
+			<li>Niranjan</li>
+			<li>Minnu</li>
+		</ul>
+
+	</div>
+
+	<!-- Buttons -->
+	<div>
+		<h3>Buttons</h3>
+		<button style="color:red; background-color:yellow;font-size: 35px;">Click Me!</button>
+		<br><br><br>
+		<button disabled style="color:red; background-color:plum; font-size: 35px;">Click Me!</button>
+	</div>
+	<br>
+
+	<!-- Iframe -->
+	<div>
+		<h3>Iframe</h3>
+		<iframe src="https://nithish-html.onrender.com/" height="500" width="600">
+
+		</iframe>
+	</div>
+
+	<!-- Emoji -->
+	<span style="font-size: 50px;">Hi Nithish &#128507;&#128508;&#128509;&#128511;</span>
+	<br><br>
+	<!-- Form Elements -->
+	<div>
+		<h3>Form Elements</h3>
+		<label for="textControl"> First Name</label>
+		<input type="text" value="Nithish" name="textControl" id="textControl">
+		<br><br>
+		<label for="numberControl">Number</label>
+		<input type="number" value="1000" id="numberControl">
+		<br><br>
+		<input type="color" name="colorPicker" id="colorPicker" value="#000">
+		<br><br>
+		<input type="date">
+		<br><br>
+		<input type="datetime-local">
+		<br><br>
+		<input type="button" value="Click">
+		<br><br>
+		<input type="checkbox" value="Pen" checked>Pen
+		<input type="checkbox" value="Pencil">Pencil
+		<input type="checkbox" value="Eraser">Eraser
+		<br><br>
+		<input type="radio" name="stationary" value="Pen" checked>Pen
+		<input type="radio" name="stationary" value="Pencil">Pencil
+		<input type="radio" name="stationary" value="Eraser">Eraser
+		<br><br>
+		<input type="file">
+		<br><br>
+		<input type="email" placeholder="Enter email here">
+		<br><br>
+		<input type="range" size="10" min="0" max="100">
+	</div>
+	<br><br>
+	<!-- Table -->
 	<div style="background-color: yellow;">
 		<br><br><br><br><br>
 		<table style="font-style: italic;border-collapse: collapse;background-color: orange;">
@@ -83,8 +156,12 @@
 		</table><br><br><br><br><br>
 	</div>
 	<br><br><br>
+
+	<!-- Image -->
 	<img src="house.png" alt="no image to display" width="500" height="400"></img>
 	<br> <br>
+
+	<!-- Video -->
 	<video width="600" height="400" controls>
 		<source src="paddington.mp4" type="video/mp4">
 
@@ -97,6 +174,22 @@
 		<source src="big bunny.mp4" type="video/mp4">
 		</source>
 	</video>
+	<br><br>
+
+	<a href="https://www.google.com" target="_blank">Go To Google</a>
+
+	<br><br>
+
+	<!-- Anchor Tag - Link -->
+
+
+	<script>
+		const colorPicker = document.getElementById("colorPicker");
+
+		colorPicker.addEventListener("input", function () {
+			document.body.style.backgroundColor = this.value;
+		});
+	</script>
 </body>
 
 </html>
